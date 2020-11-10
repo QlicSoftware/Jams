@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <div class="flex justify-between items-center mb-6">
-            <h1 class="text-3xl tracking-wider">{{ recipe.title }}</h1>
+            <h1 class="text-4xl tracking-wider">{{ recipe.title }}</h1>
             <Rating :rating="recipe.rating"></Rating>
         </div>
         <div class="content" v-html="recipe.content" />
